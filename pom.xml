@@ -7,6 +7,11 @@
   <name>Archetype - testBulk</name>
   <url>http://maven.apache.org</url>
 
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
   <!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
   <dependencies>
     <dependency>
